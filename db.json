@@ -1,20 +1,42 @@
 {
   "shipments": [
     {
-      "shipmentId": "SAE0523001007",
-      "status": "DELIVERED",
+      "cargowiseId": "SAE0523001007",
+      "amazonFbaShipmentId": ["FBA09876597"],
+      "amazonFbaReferenceId": null,
+      "consigneeName": "IncNut Lifestyle Retail Pvt Ltd",
+      "commercialInvoice": ["INCEX-767/9878", "INCEX-767/9878"],
+      "shipmentStatus": "Delivered",
       "productDetails": {
-        "weight": "5785 kg",
-        "boxes": "306 boxes",
-        "pallets": "14 Pallets"
+        "product": "Oil",
+        "incoterm": "DDP",
+        "weight": 1928.16,
+        "weightMetric": "kg",
+        "cbm": 8.54,
+        "deliveryMode": "Ocean",
+        "freightClass": "LCL",
+        "goodType": "Regular",
+        "packageType": "Box",
+        "packageQuantity": 108,
+        "volWeight": 2028.2,
+        "volWeightMetric": "kg"
       },
-      "invoiceIds": ["INCEX-767/9878", "INCEX-767/9878"],
-      "amazonFbaId": "FBA09876597",
-      "nodes": [
+      "currentMilestoneData": {
+        "currentMilestoneName": "Destination Port Handling",
+        "currentEventName": "Customs Release",
+        "currentEventStatus": "Completed",
+        "currentEventDate": "2024-04-17T00:00:00.000Z",
+        "currentMilestoneId": 19,
+        "currentEventId": 53,
+        "currentLocation": "Dallas, TX, US"
+      },
+      "eventNodes": [
         {
           "type": "Pickup",
           "location": "Hyderabad, IN",
+          "consignorName": "Intoglo pvt ltd",
           "visible": true,
+          "isCompleted": true,
           "events": [
             {
               "type": "Booking",
@@ -30,6 +52,7 @@
           "type": "POL",
           "location": "Nhava Sheva, IN",
           "visible": true,
+          "isCompleted": true,
           "events": [
             {
               "type": "Gate In",
@@ -45,6 +68,7 @@
           "type": "POD",
           "location": "Los Angeles Port, US",
           "visible": true,
+          "isCompleted": true,
           "events": [
             {
               "type": "Arrival",
@@ -58,8 +82,10 @@
         },
         {
           "type": "Delivery",
+          "consigneeName": "IncNut Lifestyle Retail Pvt Ltd",
           "location": "Bay Area, US",
           "visible": true,
+          "isCompleted": true,
           "events": [
             {
               "type": "Delivery",
@@ -70,27 +96,44 @@
       ]
     },
     {
-      "shipmentId": "SAE0523001007",
-      "status": "IN-TRANSIT",
+      "cargowiseId": "SAE0523001007",
+      "amazonFbaShipmentId": ["FBA09876597"],
+      "amazonFbaReferenceId": null,
+      "consigneeName": "IncNut Lifestyle Retail Pvt Ltd",
+      "commercialInvoice": ["INCEX-767/9878", "INCEX-767/9878"],
+      "shipmentStatus": "In-Transit",
       "productDetails": {
-        "weight": "5785 kg",
-        "boxes": "306 boxes",
-        "pallets": "14 Pallets"
+        "product": "Oil",
+        "incoterm": "DDP",
+        "weight": 198.16,
+        "weightMetric": "kg",
+        "cbm": 8.54,
+        "deliveryMode": "Ocean",
+        "freightClass": "LCL",
+        "goodType": "Regular",
+        "packageType": "Box",
+        "packageQuantity": 18,
+        "volWeight": 202.2
       },
-      "invoiceIds": ["INCEX-767/9878", "INCEX-767/9878"],
-      "amazonFbaId": "FBA09876597",
-      "nodes": [
+      "currentMilestoneData": {
+        "currentMilestoneName": "Destination Port Handling",
+        "currentEventName": "Customs Release",
+        "currentEventStatus": "Completed",
+        "currentEventDate": "2024-04-17T00:00:00.000Z",
+        "currentMilestoneId": 19,
+        "currentEventId": 53,
+        "currentLocation": "Dallas, TX, US"
+      },
+      "eventNodes": [
         {
           "type": "Pickup",
           "location": "Nhava Sheva, IN",
+          "consignorName": "Intoglo pvt ltd",
           "visible": true,
+          "isCompleted": true,
           "events": [
             {
               "type": "Booking",
-              "date": "10 Mar"
-            },
-            {
-              "type": "Gate In",
               "date": "10 Mar"
             }
           ]
@@ -99,19 +142,42 @@
           "type": "POL",
           "location": "Nhava Sheva, IN",
           "visible": true,
-          "events": []
+          "isCompleted":true,
+          "events": [
+            {
+              "type": "Gate In",
+              "date": "10 Mar"
+            },
+            {
+              "type": "Departure",
+              "date": "18 Mar"
+            }
+          ]
         },
         {
           "type": "POD",
           "location": "Los Angeles Port, US",
-          "visible": true,
-          "events": []
+          "visible": false,
+          "isCompleted":false,
+          "events": [
+            {
+              "type": "Est. Arrival",
+              "date": "10 Mar"
+            }
+          ]
         },
         {
           "type": "Delivery",
+          "consigneeName":"Geniemode Ltd",
           "location": "Bay Area, US",
-          "visible": true,
-          "events": []
+          "visible": false,
+          "isCompleted": false,
+          "events": [
+            {
+              "type": "Delivery",
+              "date": "10 Mar"
+            }
+          ]
         }
       ]
     }
