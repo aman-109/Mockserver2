@@ -21,13 +21,13 @@
         "volWeightMetric": "kg"
       },
       "currentMilestoneData": {
-        "currentMilestoneName": "Destination Port Handling",
-        "currentEventName": "Customs Release",
+        "currentEventDate": "2024-03-10T00:00:00.000Z",
+        "currentEventId": 55,
+        "currentEventName": "Cargo Delivery at Destination",
         "currentEventStatus": "Completed",
-        "currentEventDate": "2024-04-17T00:00:00.000Z",
-        "currentMilestoneId": 19,
-        "currentEventId": 53,
-        "currentLocation": "Dallas, TX, US"
+        "currentLocation": "Bay Area, US",
+        "currentMilestoneId": 10,
+        "currentMilestoneName": "Destination Delivery"
       },
       "eventNodes": [
         {
@@ -117,10 +117,10 @@
         "currentMilestoneName": "Destination Port Handling",
         "currentEventName": "Customs Release",
         "currentEventStatus": "Completed",
-        "currentEventDate": "2024-04-17T00:00:00.000Z",
+        "currentEventDate": "2024-03-20T00:00:00.000Z",
         "currentMilestoneId": 19,
         "currentEventId": 53,
-        "currentLocation": "Dallas, TX, US"
+        "currentLocation": "Los Angeles Port, US"
       },
       "eventNodes": [
         {
@@ -140,7 +140,7 @@
           "type": "POL",
           "location": "Nhava Sheva, IN",
           "visible": true,
-          "isCompleted":true,
+          "isCompleted": true,
           "events": [
             {
               "type": "Gate In",
@@ -156,24 +156,24 @@
           "type": "POD",
           "location": "Los Angeles Port, US",
           "visible": false,
-          "isCompleted":false,
+          "isCompleted": false,
           "events": [
             {
               "type": "Est. Arrival",
-              "date": "10 Mar"
+              "date": "20 Mar"
             }
           ]
         },
         {
           "type": "Delivery",
-          "consigneeName":"Geniemode Ltd",
+          "consigneeName": "Geniemode Ltd",
           "location": "Bay Area, US",
           "visible": false,
           "isCompleted": false,
           "events": [
             {
               "type": "Delivery",
-              "date": "10 Mar"
+              "date": "22 Mar"
             }
           ]
         }
