@@ -4,7 +4,6 @@
       "cargowiseId": "SAE0523001007",
       "amazonFbaShipmentId": ["FBA09876597"],
       "amazonFbaReferenceId": null,
-      "consigneeName": "IncNut Lifestyle Retail Pvt Ltd",
       "commercialInvoice": ["INCEX-767/9878", "INCEX-767/9878"],
       "shipmentStatus": "Delivered",
       "productDetails": {
@@ -99,7 +98,6 @@
       "cargowiseId": "SAE0523001007",
       "amazonFbaShipmentId": ["FBA09876597"],
       "amazonFbaReferenceId": null,
-      "consigneeName": "IncNut Lifestyle Retail Pvt Ltd",
       "commercialInvoice": ["INCEX-767/9878", "INCEX-767/9878"],
       "shipmentStatus": "In-Transit",
       "productDetails": {
