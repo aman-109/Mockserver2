@@ -1,4 +1,5 @@
-[
+{
+  "shipments" :[
   {
     "cargowiseId": "SAE0523001007",
     "amazonFbaShipmentId": "FBA09876599",
@@ -721,3 +722,4 @@
     ]
   }
 ]
+}
