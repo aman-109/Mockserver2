@@ -23,6 +23,7 @@
         "volWeight": 2028.2,
         "volWeightMetric": "kg"
       },
+      "midMileTracking":null,
       "currentMilestoneData": {
         "currentEventDate": "2024-03-10T00:00:00.000Z",
         "currentEventId": 55,
@@ -119,6 +120,7 @@
         "volWeight": 202.2,
         "volWeightMetric": "kg"
       },
+      "midMileTracking":null,
       "currentMilestoneData": {
         "currentMilestoneName": "Destination Port Handling",
         "currentEventName": "Customs Release",
@@ -212,6 +214,7 @@
         "volWeight": 202.2,
         "volWeightMetric": "kg"
       },
+      "midMileTracking":null,
       "currentMilestoneData": {
         "currentMilestoneName": "Destination Port Handling",
         "currentEventName": "Customs Release",
@@ -305,6 +308,7 @@
         "volWeight": 2023.2,
         "volWeightMetric": "kg"
       },
+      "midMileTracking":null,
       "currentMilestoneData": {
         "currentMilestoneName": "Container Port Handling",
         "currentEventName": "Cargo Equipment Handling",
@@ -402,6 +406,7 @@
         "volWeight": 345.2,
         "volWeightMetric": "kg"
       },
+      "midMileTracking":null,
       "currentMilestoneData": {
         "currentEventDate": "2024-03-10T00:00:00.000Z",
         "currentEventId": 55,
@@ -499,6 +504,7 @@
         "volWeight": 120.2,
         "volWeightMetric": "kg"
       },
+      "midMileTracking":null,
       "currentMilestoneData": {
         "currentEventDate": "2024-03-10T00:00:00.000Z",
         "currentEventId": 55,
@@ -582,6 +588,7 @@
         "volWeight": 129.2,
         "volWeightMetric": "kg"
       },
+      "midMileTracking":null,
       "currentMilestoneData": {
         "currentEventDate": "2024-03-10T00:00:00.000Z",
         "currentEventId": 55,
@@ -675,6 +682,7 @@
         "volWeight": 132.2,
         "volWeightMetric": "kg"
       },
+      "midMileTracking":null,
       "currentMilestoneData": {
         "currentEventDate": "2024-03-10T00:00:00.000Z",
         "currentEventId": 55,
