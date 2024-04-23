@@ -6,7 +6,7 @@
       "amazonFbaReferenceId": null,
       "commercialInvoice": ["INCEX-767/9878", "INCEX-767/9878"],
       "shipmentStatus": "Delivered",
-      "deliveryDate": "2024-03-10T00:00:00.000Z",
+      "deliveryDate": "Mar 08",
       "portOfloading":"POL",
       "portOfDestination":"POD",
       "productDetails": {
@@ -103,7 +103,7 @@
       "amazonFbaReferenceId": null,
       "commercialInvoice": ["INCEX-767/9878", "INCEX-767/9878"],
       "shipmentStatus": "In-Transit",
-      "deliveryDate": "2024-03-10T00:00:00.000Z",
+      "deliveryDate": "Feb 20",
       "portOfloading":"POL",
       "portOfDestination":"POD",
       "productDetails": {
@@ -197,7 +197,7 @@
       "amazonFbaReferenceId": null,
       "commercialInvoice": ["INCEX-767/9808", "INCEX-767/9899"],
       "shipmentStatus": "In-Transit",
-      "deliveryDate": "2024-03-10T00:00:00.000Z",
+      "deliveryDate": "Apr 15",
       "portOfloading":"POL",
       "portOfDestination":"POD",
       "productDetails": {
@@ -291,7 +291,7 @@
       "amazonFbaReferenceId": null,
       "commercialInvoice": ["INCEX-767/9877"],
       "shipmentStatus": "Exception",
-      "deliveryDate": "2024-03-10T00:00:00.000Z",
+      "deliveryDate": "May 23",
       "portOfloading":"POL",
       "portOfDestination":"POD",
       "productDetails": {
@@ -389,7 +389,7 @@
       "amazonFbaReferenceId": null,
       "commercialInvoice": ["INCEX-767/9823", "INCEX-767/1248"],
       "shipmentStatus": "Delivered",
-      "deliveryDate": "2024-03-10T00:00:00.000Z",
+      "deliveryDate": "Mar 12",
       "portOfloading":"POL",
       "portOfDestination":"POD",
       "productDetails": {
@@ -487,7 +487,7 @@
       "amazonFbaReferenceId": null,
       "commercialInvoice": ["INCEX-586/9820"],
       "shipmentStatus": "Delivered",
-      "deliveryDate": "2024-03-10T00:00:00.000Z",
+      "deliveryDate": "Nov 10",
       "portOfloading":"POL",
       "portOfDestination":"POD",
       "productDetails": {
@@ -571,7 +571,7 @@
       "amazonFbaReferenceId": null,
       "commercialInvoice": ["INCEX-243/9843"],
       "shipmentStatus": "Delivered",
-      "deliveryDate": "2024-03-10T00:00:00.000Z",
+      "deliveryDate": "Aug 14",
       "portOfloading":"POL",
       "portOfDestination":"POD",
       "productDetails": {
@@ -665,7 +665,7 @@
       "amazonFbaReferenceId": null,
       "commercialInvoice": ["INCEX-236/8756"],
       "shipmentStatus": "Delivered",
-      "deliveryDate": "2024-03-10T00:00:00.000Z",
+      "deliveryDate": "Jun 30",
       "portOfloading":"POL",
       "portOfDestination":"POD",
       "productDetails": {
