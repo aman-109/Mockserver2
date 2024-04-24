@@ -7,7 +7,7 @@ const port = process.env.PORT || 3001; // you can use any port number here; i ch
 
 server.use(middlewares);
 server.use(cors({
-    origin: "http://localhost:3000" 
+    origin: ["http://localhost:3000","https://20-create-gallery-view-ui-for-glotrack-all-shipment-page.d38br0ukmeynzb.amplifyapp.com"]
   }));
 server.use(router);
 
